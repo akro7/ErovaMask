@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.WeaveMagisk.Host.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_window_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.Host.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/splash_window_background_night</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/splash_window_background_night</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.Splash.Base" parent="Theme.WeaveMagisk.Host.Light">
+        <item name="android:windowBackground">@drawable/bg_splash_screen_window</item>
+        <item name="splashScreenCenterIcon">@drawable/ic_splash_weavemask_inset</item>
+        <item name="splashScreenIconTint">@color/splash_default_icon_tint_light</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.Splash.Base.Dark" parent="Theme.WeaveMagisk.Host.Dark">
+        <item name="android:windowBackground">@drawable/bg_splash_screen_window</item>
+        <item name="splashScreenCenterIcon">@drawable/ic_splash_weavemask_inset</item>
+        <item name="splashScreenIconTint">@color/splash_default_icon_tint_dark</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.Splash.MonetPreset.Red.Light" parent="Theme.WeaveMagisk.Splash.Base">
+        <item name="splashScreenWindowBackgroundColor">@color/monet_splash_red_light_bg</item>
+        <item name="splashScreenIconTint">@color/monet_splash_red_light_fg</item>
+    </style>
+    <style name="Theme.WeaveMagisk.Splash.MonetPreset.Red.Dark" parent="Theme.WeaveMagisk.Splash.Base.Dark">
+        <item name="splashScreenWindowBackgroundColor">@color/monet_splash_red_dark_bg</item>
+        <item name="splashScreenIconTint">@color/monet_splash_red_dark_fg</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.Splash.MonetPreset.Blue.Light" parent="Theme.WeaveMagisk.Splash.Base">
+        <item name="splashScreenWindowBackgroundColor">@color/monet_splash_blue_light_bg</item>
+        <item name="splashScreenIconTint">@color/monet_splash_blue_light_fg</item>
+    </style>
+    <style name="Theme.WeaveMagisk.Splash.MonetPreset.Blue.Dark" parent="Theme.WeaveMagisk.Splash.Base.Dark">
+        <item name="splashScreenWindowBackgroundColor">@color/monet_splash_blue_dark_bg</item>
+        <item name="splashScreenIconTint">@color/monet_splash_blue_dark_fg</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.Splash.MonetPreset.DeepPurple.Light" parent="Theme.WeaveMagisk.Splash.Base">
+        <item name="splashScreenWindowBackgroundColor">@color/monet_splash_deep_purple_light_bg</item>
+        <item name="splashScreenIconTint">@color/monet_splash_deep_purple_light_fg</item>
+    </style>
+    <style name="Theme.WeaveMagisk.Splash.MonetPreset.DeepPurple.Dark" parent="Theme.WeaveMagisk.Splash.Base.Dark">
+        <item name="splashScreenWindowBackgroundColor">@color/monet_splash_deep_purple_dark_bg</item>
+        <item name="splashScreenIconTint">@color/monet_splash_deep_purple_dark_fg</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.Splash.Default" parent="Theme.WeaveMagisk.Splash.Base" />
+    <style name="Theme.WeaveMagisk.Splash.MonetPreset.Red" parent="Theme.WeaveMagisk.Splash.MonetPreset.Red.Light" />
+    <style name="Theme.WeaveMagisk.Splash.MonetPreset.Blue" parent="Theme.WeaveMagisk.Splash.MonetPreset.Blue.Light" />
+
+</resources>

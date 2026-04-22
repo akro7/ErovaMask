@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">@android:color/system_accent1_300</color>
+    <color name="ic_launcher_foreground_main">@android:color/system_accent1_0</color>
+    <color name="ic_launcher_foreground_stroke">@android:color/system_accent1_0</color>
+    <color name="ic_launcher_foreground_accent">@android:color/system_accent1_100</color>
+    <color name="ic_launcher_foreground_accent_stroke">@android:color/system_accent1_200</color>
+    <color name="weave_brand_main">#2B7FFF</color>
+    <color name="weave_brand_stroke">#193CB8</color>
+    <color name="weave_brand_accent">#00B8DB</color>
+    <color name="weave_brand_accent_stroke">#005F78</color>
+</resources>

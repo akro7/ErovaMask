@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_generic">16dp</dimen>
+
+    <dimen name="spacing_tiny">4dp</dimen>   <dimen name="spacing_small">8dp</dimen>  <dimen name="spacing_medium">16dp</dimen> <dimen name="spacing_large">24dp</dimen> 
+    <dimen name="spacing_xlarge">32dp</dimen> <dimen name="spacing_huge">48dp</dimen>   <dimen name="radius_small">8dp</dimen>
+    <dimen name="radius_medium">12dp</dimen>
+    <dimen name="radius_large">20dp</dimen> <dimen name="radius_extra_large">28dp</dimen>
+
+    <dimen name="internal_action_bar_size">56dp</dimen>
+    <dimen name="action_bar_elevation">4dp</dimen>
+    
+    <dimen name="splash_icon_size">192dp</dimen>
+    <dimen name="splash_icon_inset">32dp</dimen>
+
+</resources>

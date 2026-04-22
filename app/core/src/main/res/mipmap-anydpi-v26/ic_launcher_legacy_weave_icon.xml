@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground>
+        <inset
+            android:drawable="@drawable/ic_launcher_legacy_weave"
+            android:insetLeft="-24%"
+            android:insetTop="-24%"
+            android:insetRight="-24%"
+            android:insetBottom="-24%" />
+    </foreground>
+</adaptive-icon>

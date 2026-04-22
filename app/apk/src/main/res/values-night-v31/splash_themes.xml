@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.WeaveMagisk.Splash.MonetSystem" parent="Theme.WeaveMagisk.Splash.MonetSystem.Dark">
+        <item name="android:windowBackground">@color/splash_window_background_night</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+    </style>
+
+</resources>

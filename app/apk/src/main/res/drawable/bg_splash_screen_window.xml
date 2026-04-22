@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" />
+        </shape>
+    </item>
+
+    <item
+        android:width="180dp"
+        android:height="180dp"
+        android:gravity="center">
+        <bitmap
+            android:src="@drawable/ic_splash_weavemask"
+            android:gravity="center"
+            android:tint="#DC143C" /> 
+    </item>
+</set>

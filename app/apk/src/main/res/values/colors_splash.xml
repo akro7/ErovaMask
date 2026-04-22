@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_window_background">#F5F7FA</color>
+    <color name="splash_window_background_night">#000000</color> 
+
+    <color name="splash_default_icon_tint_light">#007AFF</color> <color name="splash_default_icon_tint_dark">#FF0033</color>  <color name="monet_splash_red_light_bg">#FDE1DF</color>
+    <color name="monet_splash_red_light_fg">#990011</color>
+    <color name="monet_splash_red_dark_bg">#1A0002</color> <color name="monet_splash_red_dark_fg">#FF4D6D</color>
+
+    <color name="monet_splash_blue_light_bg">#E1F0FF</color>
+    <color name="monet_splash_blue_light_fg">#004A99</color>
+    <color name="monet_splash_blue_dark_bg">#000814</color> <color name="monet_splash_blue_dark_fg">#00BFFF</color>
+
+    <color name="monet_splash_deep_purple_light_bg">#E7DFF3</color>
+    <color name="monet_splash_deep_purple_light_fg">#2E1A52</color>
+    <color name="monet_splash_deep_purple_dark_bg">#0D001A</color>
+    <color name="monet_splash_deep_purple_dark_fg">#BF77FF</color>
+
+    <color name="monet_splash_sakura_light_bg">#FFEFF1</color>
+    <color name="monet_splash_sakura_light_fg">#73464C</color>
+    <color name="monet_splash_sakura_dark_bg">#1A0005</color>
+    <color name="monet_splash_sakura_dark_fg">#FFB3C1</color>
+
+    <color name="monet_splash_blue_grey_dark_bg">#121212</color>
+    <color name="monet_splash_blue_grey_dark_fg">#E1E1E1</color>
+
+</resources>

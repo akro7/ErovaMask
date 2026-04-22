@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppearanceFoundation.Large" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">-0.02</item> </style>
+
+    <style name="AppearanceFoundation.Large.Secondary">
+        <item name="android:textColor">?attr/colorSecondary</item>
+    </style>
+    <style name="AppearanceFoundation.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="AppearanceFoundation.Title.OnPrimary">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="AppearanceFoundation.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+    <style name="AppearanceFoundation.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppearanceFoundation.Caption.Variant">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="AppearanceFoundation.Caption.Primary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppearanceFoundation.Tiny" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="AppearanceFoundation.Tiny.Bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="AppearanceFoundation.Tiny.Variant">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+    </resources>

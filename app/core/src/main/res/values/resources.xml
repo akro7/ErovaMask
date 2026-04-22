@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Static strings -->
+    <string name="empty" translatable="false"/>
+
+    <string name="paypal" translatable="false">PayPal</string>
+    <string name="patreon" translatable="false">Patreon</string>
+    <string name="twitter" translatable="false">Twitter</string>
+    <string name="github" translatable="false">GitHub</string>
+
+    <bool name="enable_fg_service">true</bool>
+
+</resources>

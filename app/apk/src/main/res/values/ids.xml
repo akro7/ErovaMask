@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recyclerScrollListener" type="id" />
+    <item name="onItemClickListener" type="id" />
+    
+    <item name="state_loading" type="id" />
+    <item name="state_error" type="id" />
+    <item name="state_empty" type="id" />
+
+    <item name="view_tag_id" type="id" />
+    <item name="view_metadata_id" type="id" />
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.WeaveMagisk.WebUI" parent="Theme.WeaveMagisk.WebUI.System" />
+
+    <style name="Theme.WeaveMagisk.WebUI.System" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="27">shortEdges</item>
+        <item name="android:windowBackground">@color/splash_window_background_night</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.WebUI.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="27">shortEdges</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.WebUI.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="27">shortEdges</item>
+        <item name="android:windowBackground">@color/splash_window_background_night</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.Splash" parent="Theme.WeaveMagisk.Splash.Default">
+        <item name="postSplashScreenTheme">@style/Theme.Foundation</item>
+    </style>
+
+</resources>

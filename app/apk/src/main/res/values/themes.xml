@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.V23.Theme.Foundation.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">?attr/colorSurface</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="dialogTheme">@style/ThemeOverlay.Foundation.Dialog</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Base.V23.Theme.Foundation" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/splash_window_background_night</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="dialogTheme">@style/ThemeOverlay.Foundation.Dialog</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Foundation.Light" parent="Base.V23.Theme.Foundation.Light" />
+    <style name="Theme.Foundation" parent="Base.V23.Theme.Foundation" />
+
+    <style name="Base.V23.ThemeOverlay.Foundation.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
+    </style>
+
+    <style name="ThemeOverlay.Foundation.Dialog" parent="Base.V23.ThemeOverlay.Foundation.Dialog" />
+
+    <style name="Theme.WeaveMagisk.WebUI" parent="Theme.WeaveMagisk.WebUI.System" />
+
+    <style name="Theme.WeaveMagisk.WebUI.System" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="27">shortEdges</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.WebUI.Light" parent="Theme.WeaveMagisk.WebUI.System">
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.WebUI.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/splash_window_background_night</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="27">shortEdges</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.WeaveMagisk.Splash" parent="Theme.WeaveMagisk.Splash.Default">
+        <item name="postSplashScreenTheme">@style/Theme.Foundation</item>
+    </style>
+
+</resources>

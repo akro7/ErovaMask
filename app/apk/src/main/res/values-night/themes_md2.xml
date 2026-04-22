@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#0A84FF</item> <item name="colorPrimaryVariant">#260A84FF</item>
+        <item name="colorSecondary">#5E5CE6</item>
+        <item name="colorSecondaryVariant">#265E5CE6</item>
+        <item name="colorSurface">#0D0D0D</item>
+        <item name="colorSurfaceVariant">#1C1C1E</item>
+        <item name="colorSurfaceSurfaceVariant">#2C2C2E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnPrimaryVariant">#BFFFFFFF</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorOnBackground">?attr/colorOnSurface</item>
+        <item name="colorError">#FF453A</item> <item name="colorOnError">#0D0D0D</item>
+        <item name="colorOnSurface">#F2F2F7</item>
+        <item name="colorOnSurfaceVariant">#8E8E93</item>
+        <item name="colorDisabled">#48484A</item>
+        <item name="colorDisabledVariant">#2648484A</item>
+    </style>
+
+    <style name="ThemeFoundationMD2.Amoled" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorSurface">#000000</item> <item name="colorSurfaceVariant">#121212</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorOnBackground">#F2F2F7</item>
+        <item name="colorOnError">#FFFFFF</item>
+    </style>
+
+    <style name="ThemeFoundationMD2.Zapdos" parent="ThemeFoundationMD2.Zapdos.Base">
+        <item name="colorPrimary">#FFD60A</item>
+        <item name="colorPrimaryVariant">#26FFD60A</item>
+        <item name="colorOnPrimary">#000000</item>
+    </style>
+
+    <style name="ThemeFoundationMD2.Mew" parent="ThemeFoundationMD2.Mew.Base">
+        <item name="colorPrimary">#FF375F</item>
+        <item name="colorPrimaryVariant">#26FF375F</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnPrimaryVariant">#BFFFFFFF</item>
+    </style>
+
+    </resources>

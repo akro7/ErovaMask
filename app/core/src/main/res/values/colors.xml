@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark">#00796B</color>
+    <color name="light">#e0e0e0</color>
+    <color name="su_request_background">#e0e0e0</color>
+    <color name="ic_launcher_background">#EAF2FF</color>
+    <color name="ic_launcher_foreground_main">#2B7FFF</color>
+    <color name="ic_launcher_foreground_stroke">#193CB8</color>
+    <color name="ic_launcher_foreground_accent">#00B8DB</color>
+    <color name="ic_launcher_foreground_accent_stroke">#005F78</color>
+    <color name="weave_brand_main">#2B7FFF</color>
+    <color name="weave_brand_stroke">#193CB8</color>
+    <color name="weave_brand_accent">#00B8DB</color>
+    <color name="weave_brand_accent_stroke">#005F78</color>
+</resources>

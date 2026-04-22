@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeFoundationMD2" parent="Foundation.Default" />
+
+    <style name="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#007AFF</item> <item name="colorPrimaryVariant">#26007AFF</item>
+        <item name="colorSecondary">#5856D6</item> <item name="colorSecondaryVariant">#265856D6</item>
+        <item name="colorSurface">#F2F2F7</item>
+        <item name="colorSurfaceVariant">#E5E5EA</item>
+        <item name="colorSurfaceSurfaceVariant">?attr/colorSurface</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnPrimaryVariant">#BFFFFFFF</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorOnBackground">?attr/colorOnSurface</item>
+        <item name="colorError">#FF3B30</item> <item name="colorOnError">#FFFFFF</item>
+        <item name="colorOnSurface">#1C1C1E</item>
+        <item name="colorOnSurfaceVariant">#8E8E93</item>
+        <item name="colorDisabled">#AEAEB2</item>
+        <item name="colorDisabledVariant">#4D8E8E93</item>
+    </style>
+
+    <style name="ThemeFoundationMD2.Amoled" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorSurface">#000000</item> <item name="colorSurfaceVariant">#121212</item>
+        <item name="colorOnSurface">#F2F2F7</item>
+        <item name="colorOnSurfaceVariant">#8E8E93</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorOnBackground">#F2F2F7</item>
+        <item name="colorOnError">#FFFFFF</item>
+    </style>
+
+    <style name="ThemeFoundationMD2.Rayquaza" parent="ThemeFoundationMD2.Amoled">
+        <item name="colorPrimary">#34C759</item>
+        <item name="colorPrimaryVariant">#2634C759</item>
+        <item name="colorSecondary">#FF2D55</item>
+        <item name="colorSecondaryVariant">#26FF2D55</item>
+    </style>
+
+    <style name="ThemeFoundationMD2.Charmeleon" parent="ThemeFoundationMD2.Amoled">
+        <item name="colorPrimary">#FF3B30</item>
+        <item name="colorPrimaryVariant">#26FF3B30</item>
+        <item name="colorSecondary">#FF9500</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="ThemeFoundationMD2.Fraxure" parent="ThemeFoundationMD2.Amoled">
+        <item name="colorPrimary">#30B0C7</item>
+        <item name="colorPrimaryVariant">#2630B0C7</item>
+        <item name="colorSecondary">?attr/colorError</item>
+    </style>
+
+    </resources>

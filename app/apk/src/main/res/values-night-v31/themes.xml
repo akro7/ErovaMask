@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WeaveMagisk.Splash" parent="Theme.WeaveMagisk.Splash.Default">
+        <item name="windowSplashScreenBackground">@color/splash_window_background_night</item>
+        
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        
+        <item name="postSplashScreenTheme">@style/Theme.Foundation</item>
+        
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
