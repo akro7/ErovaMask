@@ -23,6 +23,12 @@ jobs:
         uses: actions/checkout@v6
         with:
           submodules: "recursive"
+          fetch-depth: 0
+
+      - name: Fix Submodules
+        run: |
+          git submodule update --init --recursive
+          git submodule foreach --recursive git reset --hard
 
       - name: Setup environment
         uses: ./.github/actions/setup
@@ -30,7 +36,6 @@ jobs:
           is-asset-build: true
 
       - name: Build release
-        # تم تعديل هذا السطر بإضافة python3 لتجنب مشكلة الصلاحيات
         run: python3 build.py -vr all
 
       - name: Stop gradle daemon
