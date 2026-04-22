@@ -25,10 +25,15 @@ jobs:
           submodules: "recursive"
           fetch-depth: 0
 
-      - name: Fix Submodules
+      - name: Force Update Submodules
         run: |
-          git submodule update --init --recursive
-          git submodule foreach --recursive git reset --hard
+          git submodule sync --recursive
+          git submodule update --init --recursive --force --remote
+          # التأكد من وجود المجلد المطلوب وإصلاحه في حال كان فارغاً
+          if [ ! -f "native/src/external/cxx-rs/Cargo.toml" ]; then
+            echo "Submodule cxx-rs is missing, attempting manual fix..."
+            git clone https://github.com/dtolnay/cxx native/src/external/cxx-rs
+          fi
 
       - name: Setup environment
         uses: ./.github/actions/setup
