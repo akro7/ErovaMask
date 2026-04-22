@@ -30,7 +30,8 @@ jobs:
           is-asset-build: true
 
       - name: Build release
-        run: ./build.py -vr all
+        # تم تعديل هذا السطر بإضافة python3 لتجنب مشكلة الصلاحيات
+        run: python3 build.py -vr all
 
       - name: Stop gradle daemon
         run: ./app/gradlew --stop
